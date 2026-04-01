@@ -1,0 +1,25 @@
+{
+  "name": "diffview",
+  "version": "1.0.0",
+  "description": "Beautiful side-by-side diff viewer for terminal and browser",
+  "main": "dist/index.js",
+  "bin": {
+    "diffview": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "diff",
+    "compare",
+    "side-by-side",
+    "terminal",
+    "viewer"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
